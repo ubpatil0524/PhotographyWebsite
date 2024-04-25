@@ -1,0 +1,474 @@
+header{
+    transition: background-color 0.4s ease-in-out;
+}
+header.scrolled {
+    background-color: grey;
+    opacity: 0.98;
+}
+header nav a{
+    transition: color 0.4s ease-in-out;
+}
+
+header.scrolled nav a{
+    color: black;
+}
+.navbar-brand {
+    margin-left: 30px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.nav-link {
+    color: white;
+    font-weight: 600;
+    font-size: large;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+    background-color: white;
+}
+
+.navbar-toggler:focus .btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.offcanvas.show .navbar-nav .nav-link {
+    color: black;
+}
+
+.offcanvas.show .navbar-toggler-icon {
+    background-color: black;
+}
+
+.offcanvas.show .navbar-toggler-icon::before {
+    background-color: black;
+}
+
+.offcanvas.show .offcanvas-header .offcanvas-title {
+    color: black;
+}
+
+.Main {
+    position: absolute;
+    z-index: 1;
+    margin-top: 190px;
+    margin-left: 200px;
+    color: white;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    margin-top: 90px;
+    width: 150px;
+    border-radius: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.carousel-item {
+    height: 650px;
+}
+
+.navContact {
+    margin-right: 30px;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+}
+
+.testimonialsTxt1 {
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 80px;
+    margin-left: 80px;
+    color: white;
+
+}
+
+.testimonialsTxt2 {
+    font-size: 18px;
+    margin-top: 250px;
+    margin-left: 80px;
+    color: white;
+
+}
+
+.testimonials-container {
+    height: 650px;
+    margin-top: 30px;
+    overflow: hidden;
+    background-color: black;
+}
+
+#carouselExample {
+    width: 2000px;
+    height: 2000px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.btn2 {
+    width: 10%; 
+    height: 21%; 
+}
+
+.gridSection {
+    margin-top: 40px;
+    width: 60%;
+}
+
+.card-body {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    padding: 0 35px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin-top: -50px;
+}
+
+.fullSlider {
+    max-width: 1200px;
+    position: relative;
+}
+
+.fullSlider i {
+    top: 50%;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    position: absolute;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 46px;
+    background: #fff;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.fullSlider i:first-child {
+    left: -23px;
+    display: none;
+}
+
+.fullSlider i:last-child {
+    right: -23px;
+}
+
+.fullSlider .slider {
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+
+.slider.dragging {
+    cursor: grab;
+    scroll-behavior: auto;
+}
+
+.slider.dragging img {
+    pointer-events: none;
+}
+
+.slider img {
+    height: 340px;
+    object-fit: cover;
+    margin-left: 14px;
+    width: calc(100% / 3);
+}
+
+.slider img:first-child {
+    margin-left: 0px;
+}
+
+.quoteDiv{
+    text-align: center;
+}
+
+footer{
+    margin-top: 200px;
+    background-color: #111;
+}
+.footerContainer{
+    width: 100%;
+    padding: 50px 30px 20px;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footerNav{
+    margin: 30px 0;
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
+}
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+    .fullSlider img {
+        width: calc(100%/2);
+    }
+
+/* 
+    .fullSlider{
+        margin-bottom: 500px;
+    }
+
+    .testimonialsTxt2{
+        margin-top: 150px;
+    }
+
+    .carousel-inner2 .carousel-item img {
+        height: 500px;
+        max-width: 100%;
+        margin-top: 150px;
+    }
+
+    .testimonialsTxt1{
+        margin-top: 300px;
+    }
+
+    .container{
+        height: 100vh; 
+        width: 100%;
+        margin-top: -80px;
+    }
+    
+    .carousel-item {
+        height: 100vh; 
+        width: 100%; 
+    }
+
+    .carousel-item img {
+        object-fit: cover; 
+        height: 100%; 
+        width: 100%; 
+    }
+
+    .Maintxt{
+        font-size: 45px;
+        margin-top: 90px;
+        margin-left: -20px;
+
+    }
+    .btn{
+        margin-left: -20px;
+    }
+
+    .gridSection{
+        width: 600px;
+        height: 300px;
+        margin-top: 300px;
+    }
+
+    .testimonials-container{
+        height: 1100px; 
+         
+    } */
+
+}
+
+
+@media screen and (max-width: 550px) {
+    .fullSlider img {
+        width: 100%;
+    }
+
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    .Main {
+        position: absolute;
+        margin-top: 260px;
+        z-index: 1;
+        margin-left: 60px;
+        color: white;
+    }
+
+    .Maintxt {
+        font-size: 20px;
+    }
+
+    .btn {
+        font-size: 10px;
+        margin-top: 60px;
+    }
+
+    main {
+        margin-bottom: -400px;
+        height: 100%;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        height: 130px;
+        margin-bottom: 1655px;
+        margin-top: 400px;
+    }
+    
+    .carousel-inner2{
+        margin-top: 50px;
+        width: 200px;
+    }
+
+   
+    .fullSlider{
+        margin-top: -1000px;
+    }
+
+    .carousel-item {
+        height: 100vh; 
+        width: 100%; 
+    }
+
+    .carousel-item img {
+        object-fit: cover; 
+        height: 100%; 
+        width: 100%; 
+    }
+
+    .gridImage{
+        margin-bottom: 25px;
+    }
+
+    .carousel-inner2 {
+        width: 150px; 
+        height: 200px; 
+    }
+
+    .testimonialImg {
+        height: 100%; 
+    }
+
+    .testimonialImg img {
+        object-fit: cover; 
+        height: 100%; 
+        width: 100%;
+    }
+    .testimonials-container {
+        height: 650px;
+        margin-top: 3100px;
+        background-color: black;
+        margin-top: 50px;
+        /* margin-bottom: 450px; */
+    }
+    .testimonialsTxt1{
+        font-size: 14px;
+    }
+
+    .testimonialsTxt2{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+
+    #carouselExample{
+        margin-top: 110px;
+    }
+
+    .fullSlider{
+        /* margin-top: -150px; */
+        margin-bottom: -1000px;
+    }
+    section{
+        margin-bottom: -1000px;
+    }
+
+    .quoteDiv{
+        margin-top: 1000px;
+        text-align: center;
+        margin-bottom: 400px;
+    }
+
+    .footerNav ul{
+        flex-direction: column;
+    }
+    .footerNav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+    
+
+    
+}
